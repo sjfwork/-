@@ -16,7 +16,7 @@ stream_context_set_default(
 
 	$urlLogin = 'https://pub.fsa.gov.ru/login';
 	$urlItems = 'https://pub.fsa.gov.ru/api/v1/rss/common/certificates/get';
-	$LoginBody = '{"username":"anonymous","password":"hrgesf7HDR67Bd"}';
+	$LoginBody = '{"username":"","password":""}';
 	$itemsBody = '{"size":10,"page":0,"filter":{"idTechReg":[11],"regDate":{"minDate":"","maxDate":""},"endDate":{"minDate":"","maxDate":"2019-09-01T00:00:00.000Z"},"columnsSearch":[]},"columnsSort":[{"column":"date","sort":"DESC"}]}';
 
 	$headers=get_headers($urlLogin,1);
